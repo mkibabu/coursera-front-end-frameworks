@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Ristorante Con Fusion</title>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -17,13 +17,13 @@
 </head>
 
 <body>
-
-    <header>
+<!-- Turn the header into a jumbotron. Makes it span the whole screen, and gives it emphasis -->
+    <header class="jumbotron">
 
         <!-- Main component for a primary marketing message or call to action -->
 
-        <div>
-            <div>
+        <div class="container">
+            <div class="row">
                 <div>
                     <h1>Ristorante con Fusion</h1>
                     <p style="padding:40px;"></p>
@@ -35,8 +35,10 @@
         </div>
     </header>
 
-    <div>
-        <div>
+    <!-- Make the first body div a container. It gives the rest of the bootstrap content structure. All other content is within the container-->
+    <div class="container">
+    <!-- Make the sibling divs of the containers "rows" -->
+        <div class="row">
             <div>
                 <p style="padding:20px;"></p>
                 <h3 align=center>Our Lipsmacking Culinary Creations</h3>
@@ -49,7 +51,7 @@
         </div>
 
 
-        <div>
+        <div class="row">
             <div>
                 <p style="padding:20px;"></p>
                 <h3 align=center>This Month's Promotions</h3>
@@ -61,7 +63,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="row">
             <div>
                 <p style="padding:20px;"></p>
                 <h3 align=center>Meet our Culinary Specialists</h3>
@@ -76,8 +78,8 @@
     </div>
 
     <footer>
-        <div>
-            <div>             
+        <div class="container">
+            <div class="row">             
                 <div>
                     <h5>Links</h5>
                     <ul>
